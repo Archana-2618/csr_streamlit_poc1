@@ -35,8 +35,8 @@ if "edited_sections" not in st.session_state:
     st.session_state.edited_sections = {}
 
 # Backend API endpoint configuration
-API_URL = "http://127.0.0.1:8000/api/generate-article"
-
+#API_URL = "http://127.0.0.1:8000/api/generate-article"
+API_URL = "https://csr-backend-jkj2.onrender.com/api/generate-article"
 # Sidebar for file upload
 with st.sidebar:
     st.header("Upload Document")
